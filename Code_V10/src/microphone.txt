@@ -1,0 +1,5 @@
+VCC = 3.3
+GND = GND
+GAIN = VCC (automatisch)
+A/R = bei attack mute, bei release nicht (A/R = 1 => attack(muted), A/R = 0 => release(nicht muted)), automatisch release
+OUT = output des micros
