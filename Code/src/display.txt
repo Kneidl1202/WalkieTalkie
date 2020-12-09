@@ -1,0 +1,10 @@
+LED: 3.3V IO and Power Supply pin
+LED: UTFT Support
+SCL: Serial clock input
+SDA/SDI: Serial data input
+DC: Data/Command selection
+RST: Reset Low level active
+CS: Chip Selection，Low level active
+GND: Ground
+VDD33: 3.3V Power Supply pin
+
