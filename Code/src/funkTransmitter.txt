@@ -1,0 +1,6 @@
+https://www.elecrow.com/download/HC-12.pdf
+https://howtomechatronics.com/tutorials/arduino/arduino-and-hc-12-long-range-wireless-communication-module/
+
+vcc = 3,2-5,5V, at minimum 200mA
+gnd = gnd
+d
