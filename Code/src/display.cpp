@@ -1,37 +1,33 @@
 //code for the monitor
 
-//TODO find TFT.h library. VERY IMPORTANT. then uncomment the code. remove the // before the code lines
-
-//#include <TFT.h>
+#include <Arduino.h>
+#include "global.cpp"
+#include "TFT.h"
 #include <SPI.h>
 
 #define cs 10
 #define dc 9
 #define rst 8
 
-//TFT TFTscreen = TFT(cs, dc, rst);
+TFT TFTscreen = TFT(cs, dc, rst);
 
+//initial the display
 void InitDisplay()
 {
-    //TFTscreen.begin();
-    //TFTscreen.background(0, 0, 0);
-    //TFTscreen.setTextSize(2);
+    TFTscreen.begin();
+    TFTscreen.background(0, 0, 0);
+    TFTscreen.setTextSize(2);
 }
 
+//Main method. called every loop round. manages the display
 void MainDisplay()
 {
+    //call methods which have to be updated every time
+    //call setFrequency everytime to update displayed frequency
+}
 
-    //generate a random color
-    int redRandom = random(0, 255);
-    int greenRandom = random(0, 255);
-    int blueRandom = random(0, 255);
-
-    // set a random font color
-    //TFTscreen.stroke(redRandom, greenRandom, blueRandom);
-
-    // print Hello, World! in the middle of the screen
-    //TFTscreen.text("Hello, World!", 6, 57);
-
-    // wait 200 miliseconds until change to next color
-    delay(200);
+//call this method to update the frequency displayed on the screen
+void setFrequency(char freq[])
+{
+    TFTscreen.text(freq, 6, 6);
 }

@@ -8,3 +8,13 @@ CS: Chip Selection，Low level active
 GND: Ground
 VDD33: 3.3V Power Supply pin
 
+vcc = 5V
+gnd = gnd
+cs = 10
+reset = 8
+a0 = 9
+sda = 11
+sck = 13
+led = 3.3V
+
+
