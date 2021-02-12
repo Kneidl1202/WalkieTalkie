@@ -1,0 +1,26 @@
+usage of the different pins
+
+3 =  RA_PIN (microphone)
+4 =  buttonForRA (microphone)
+5 =  higherButtonPin (FunkTransmitter)
+6 =  lowerButtonPin (FunkTransmitter)
+7 =  setPin (FunkTransmitter)
+8 =  rst-Pin (display)
+9 =  a0-Pin (display)
+10 = cs-Pin (display)
+11 = sda-Pin (display)
+12 = 
+13 = sck-Pin (display)
+
+A0 = RX-Pin (FunkTransmitter)
+A1 = TX-Pin (FunkTransmitter)
+
+5V = display, funktransmitter, 
+3.3V = display, microphone
+
+Analog Pins can be used for digital stuff -> PinMode(A0, INPUT); digitalWrite(A0);
+Maybe using analog pins for display
+one PWM pin for the speakers (i think Pin 13 isn't on Nano)
+
+Vin = connect to power suppoly to give Arduino voltage
+GND = gnd for the arduino
