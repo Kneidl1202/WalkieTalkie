@@ -1,41 +1,59 @@
+//
+// !!! WARNING !!! AUTO-GENERATED FILE!
+// PLEASE DO NOT MODIFY IT AND USE "platformio.ini":
+// https://docs.platformio.org/page/projectconf/section_env_build.html#build-flags
+//
 {
     "configurations": [
         {
-            "name": "!!! WARNING !!! AUTO-GENERATED FILE, PLEASE DO NOT MODIFY IT AND USE https://docs.platformio.org/page/projectconf/section_env_build.html#build-flags"
-        },
-        {
-            "name": "Win32",
+            "name": "PlatformIO",
             "includePath": [
-                "c:/Users/Andreas/Documents/PlatformIO/Projects/WalkieTalkie/include",
-                "c:/Users/Andreas/Documents/PlatformIO/Projects/WalkieTalkie/src",
-                "C:/Users/Andreas/.platformio/packages/framework-arduino-avr/cores/arduino",
-                "C:/Users/Andreas/.platformio/packages/framework-arduino-avr/variants/standard",
-                "C:/Users/Andreas/.platformio/packages/framework-arduino-avr/libraries/EEPROM/src",
-                "C:/Users/Andreas/.platformio/packages/framework-arduino-avr/libraries/HID/src",
-                "C:/Users/Andreas/.platformio/packages/framework-arduino-avr/libraries/SPI/src",
-                "C:/Users/Andreas/.platformio/packages/framework-arduino-avr/libraries/SoftwareSerial/src",
-                "C:/Users/Andreas/.platformio/packages/framework-arduino-avr/libraries/Wire/src",
-                "C:/Users/Andreas/.platformio/packages/tool-unity",
+                "/Users/andreas/Projects/Python/WalkieTalkie/Code/include",
+                "/Users/andreas/Projects/Python/WalkieTalkie/Code/src",
+                "/Users/andreas/.platformio/packages/framework-arduino-avr/libraries/SoftwareSerial/src",
+                "/Users/andreas/Projects/Python/WalkieTalkie/Code/.pio/libdeps/uno/TFT/src",
+                "/Users/andreas/.platformio/packages/framework-arduino-avr/libraries/SPI/src",
+                "/Users/andreas/Projects/Python/WalkieTalkie/Code/.pio/libdeps/uno/ezButton/src",
+                "/Users/andreas/.platformio/packages/framework-arduino-avr/cores/arduino",
+                "/Users/andreas/.platformio/packages/framework-arduino-avr/variants/standard",
+                "/Users/andreas/Projects/Python/WalkieTalkie/Code/.pio/libdeps/uno/Adafruit BusIO",
+                "/Users/andreas/Projects/Python/WalkieTalkie/Code/.pio/libdeps/uno/Adafruit GFX Library",
+                "/Users/andreas/Projects/Python/WalkieTalkie/Code/.pio/libdeps/uno/Adafruit ILI9341",
+                "/Users/andreas/Projects/Python/WalkieTalkie/Code/.pio/libdeps/uno/Adafruit STMPE610",
+                "/Users/andreas/Projects/Python/WalkieTalkie/Code/.pio/libdeps/uno/Adafruit TouchScreen",
+                "/Users/andreas/Projects/Python/WalkieTalkie/Code/.pio/libdeps/uno/TFT_eSPI",
+                "/Users/andreas/.platformio/packages/framework-arduino-avr/libraries/EEPROM/src",
+                "/Users/andreas/.platformio/packages/framework-arduino-avr/libraries/HID/src",
+                "/Users/andreas/.platformio/packages/framework-arduino-avr/libraries/Wire/src",
+                "/Users/andreas/.platformio/packages/tool-unity",
                 ""
             ],
             "browse": {
                 "limitSymbolsToIncludedHeaders": true,
                 "path": [
-                    "c:/Users/Andreas/Documents/PlatformIO/Projects/WalkieTalkie/include",
-                    "c:/Users/Andreas/Documents/PlatformIO/Projects/WalkieTalkie/src",
-                    "C:/Users/Andreas/.platformio/packages/framework-arduino-avr/cores/arduino",
-                    "C:/Users/Andreas/.platformio/packages/framework-arduino-avr/variants/standard",
-                    "C:/Users/Andreas/.platformio/packages/framework-arduino-avr/libraries/EEPROM/src",
-                    "C:/Users/Andreas/.platformio/packages/framework-arduino-avr/libraries/HID/src",
-                    "C:/Users/Andreas/.platformio/packages/framework-arduino-avr/libraries/SPI/src",
-                    "C:/Users/Andreas/.platformio/packages/framework-arduino-avr/libraries/SoftwareSerial/src",
-                    "C:/Users/Andreas/.platformio/packages/framework-arduino-avr/libraries/Wire/src",
-                    "C:/Users/Andreas/.platformio/packages/tool-unity",
+                    "/Users/andreas/Projects/Python/WalkieTalkie/Code/include",
+                    "/Users/andreas/Projects/Python/WalkieTalkie/Code/src",
+                    "/Users/andreas/.platformio/packages/framework-arduino-avr/libraries/SoftwareSerial/src",
+                    "/Users/andreas/Projects/Python/WalkieTalkie/Code/.pio/libdeps/uno/TFT/src",
+                    "/Users/andreas/.platformio/packages/framework-arduino-avr/libraries/SPI/src",
+                    "/Users/andreas/Projects/Python/WalkieTalkie/Code/.pio/libdeps/uno/ezButton/src",
+                    "/Users/andreas/.platformio/packages/framework-arduino-avr/cores/arduino",
+                    "/Users/andreas/.platformio/packages/framework-arduino-avr/variants/standard",
+                    "/Users/andreas/Projects/Python/WalkieTalkie/Code/.pio/libdeps/uno/Adafruit BusIO",
+                    "/Users/andreas/Projects/Python/WalkieTalkie/Code/.pio/libdeps/uno/Adafruit GFX Library",
+                    "/Users/andreas/Projects/Python/WalkieTalkie/Code/.pio/libdeps/uno/Adafruit ILI9341",
+                    "/Users/andreas/Projects/Python/WalkieTalkie/Code/.pio/libdeps/uno/Adafruit STMPE610",
+                    "/Users/andreas/Projects/Python/WalkieTalkie/Code/.pio/libdeps/uno/Adafruit TouchScreen",
+                    "/Users/andreas/Projects/Python/WalkieTalkie/Code/.pio/libdeps/uno/TFT_eSPI",
+                    "/Users/andreas/.platformio/packages/framework-arduino-avr/libraries/EEPROM/src",
+                    "/Users/andreas/.platformio/packages/framework-arduino-avr/libraries/HID/src",
+                    "/Users/andreas/.platformio/packages/framework-arduino-avr/libraries/Wire/src",
+                    "/Users/andreas/.platformio/packages/tool-unity",
                     ""
                 ]
             },
             "defines": [
-                "PLATFORMIO=50003",
+                "PLATFORMIO=50100",
                 "ARDUINO_AVR_UNO",
                 "F_CPU=16000000L",
                 "ARDUINO_ARCH_AVR",
@@ -43,10 +61,9 @@
                 "__AVR_ATmega328P__",
                 ""
             ],
-            "intelliSenseMode": "gcc-x64",
             "cStandard": "c11",
             "cppStandard": "c++11",
-            "compilerPath": "C:/Users/Andreas/.platformio/packages/toolchain-atmelavr/bin/avr-gcc.exe",
+            "compilerPath": "/Users/andreas/.platformio/packages/toolchain-atmelavr/bin/avr-gcc",
             "compilerArgs": [
                 "-mmcu=atmega328p",
                 ""

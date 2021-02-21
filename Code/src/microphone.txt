@@ -1,3 +1,5 @@
+
+
 VCC = 3.3
 GND = GND
 GAIN = VCC (automatisch)

@@ -1,6 +1,6 @@
 LED: 3.3V IO and Power Supply pin
 LED: UTFT Support
-SCL: Serial clock input
+SCK: Serial clock input
 SDA/SDI: Serial data input
 DC: Data/Command selection
 RST: Reset Low level active
@@ -16,5 +16,4 @@ a0 = 9
 sda = 11
 sck = 13
 led = 3.3V
-
 

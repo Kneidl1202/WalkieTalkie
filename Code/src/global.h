@@ -1,7 +1,10 @@
 #ifndef GLOBAL_H
 #define GLOBAL_H
 
-extern int txd[8];
-extern int rxd[8];
+extern String readBuffer;
+extern String sendBuffer;
+extern int channelBuffer;
+
+extern String displayedChannel;
 
 #endif

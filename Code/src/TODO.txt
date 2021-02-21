@@ -1,0 +1,10 @@
+TODO stuff
+
+display:
+    channel, stummgeschalten oder nicht, rxd, txd, 
+
+microphone:
+    effectif einlesen von geraeuschen
+
+speaker:
+    whole code

@@ -1,12 +1,15 @@
 #ifndef INIT_H
 #define INIT_H
 
-void InitFunkTransmitter();
-void InitDisplay();
-void InitMicrophone();
+extern void InitFunkTransmitter();
+extern void InitDisplay();
+extern void InitMicrophone();
+extern void InitSpeakers();
 
-void MainFunkTransmitter();
-void MainDisplay();
-void MainMicrophone();
+extern void MainFunkTransmitter();
+extern void MainDisplay();
+extern void MainMicrophone();
+extern void MainSpeakers();
+extern void mainSerialRead();
 
 #endif

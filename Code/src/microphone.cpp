@@ -1,7 +1,9 @@
 #include <Arduino.h>
 #include "ezButton.h"
 
-ezButton button(7);
+#define RA_Pin 3
+
+ezButton button(4);
 bool RA = true;
 
 void setRA(bool RA);
@@ -15,23 +17,11 @@ void readOut();
 const int sampleWindow = 50; // Sample window width in mS (50 mS = 20Hz)
 unsigned int sample;
 
-#define RA_Pin 3
-
 void InitMicrophone()
 {
   button.setDebounceTime(50);
-}
 
-void MainMicrophone()
-{
-  if (button.isPressed())
-  {
-    RA = !RA;
-  }
-
-  //readOut();
-  //setRA(RA);
-  //delay(1000);
+  Serial.println("done init microphone");
 }
 
 void readOut()
@@ -71,7 +61,6 @@ void setRA(bool RA)
 
   if (RA)
   {
-
     digitalWrite(RA_Pin, LOW);
     Serial.println(0);
   }
@@ -80,4 +69,18 @@ void setRA(bool RA)
     digitalWrite(RA_Pin, HIGH);
     Serial.println(1);
   }
+}
+
+void MainMicrophone()
+{
+  if (button.isPressed())
+  {
+    RA = !RA;
+  }
+
+  readOut();
+  setRA(RA);
+  delay(1000);
+
+  Serial.println("main microphone");
 }
